@@ -76,12 +76,53 @@ body {
     background-color: #3882f6;
     color:white;
     border-radius: 10px;
+    border:0px;
     flex-grow:0;
     font-size: 20px;
-    padding:8px 22px;
+    padding:8px 24px;
 }
 
 .img-text {
     color:whitesmoke;
     font-size: 18px;
 }
+
+.info-header {
+    text-align: center;
+    margin:50px;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    border: solid;
+    border-width: 5px;
+    border-color: #486ae3;
+    border-radius: 15px;
+    min-width: 200px;
+height:200px;
+}
+
+.info-content {
+    display: flex;
+    gap:32px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:60px;
+}
+.content p {
+    width:180px;
+    color: grey;
+    text-align: center;
+}
+
+
